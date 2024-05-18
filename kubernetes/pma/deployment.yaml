@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pma
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: pma
+  template:
+    metadata:
+      labels:
+        app: pma
+    spec:
+      containers:
+        - name: pma
+          image: phpmyadmin/phpmyadmin:latest
+          envFrom:
+            - secretRef:
+                name: pma
+
+
+      
