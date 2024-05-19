@@ -57,7 +57,7 @@
           </div>
         </nav>
         <a href="#" class="u-image u-logo u-image-1" data-image-width="294" data-image-height="358">
-          <img src="images/logo-removebg-preview.png" class="u-logo-image u-logo-image-1">
+          <img src="assets/logo-removebg-preview.png" class="u-logo-image u-logo-image-1">
         </a>
         <h6 class="u-text u-text-palette-4-light-1 u-text-1">PoleIT-VAL</h6>
       </div></header>

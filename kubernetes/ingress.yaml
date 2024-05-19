@@ -2,12 +2,21 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: website
+  annotations:
+    traekik.ingress.kubernetes.io/rewrite-target: /
 spec:
-  ingressClassName: nginx
+  ingressClassName: traefik
   rules:
-    - host: website.lan
+    - host: www.poleit.lan
       http:
         paths:
+          - path: "/pma"
+            pathType: Prefix
+            backend:
+              service:
+                name: pma
+                port:
+                  number: 80
           - path: "/"
             pathType: Prefix
             backend:

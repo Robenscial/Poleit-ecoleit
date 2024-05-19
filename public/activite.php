@@ -64,7 +64,7 @@
               </div>
             </nav>
             <a href="#" class="u-image u-logo u-image-1" data-image-width="294" data-image-height="358">
-              <img src="images/logo-removebg-preview.png" class="u-logo-image u-logo-image-1">
+              <img src="assets/logo-removebg-preview.png" class="u-logo-image u-logo-image-1">
             </a>
             <h6 class="u-text u-text-palette-4-light-1 u-text-1">PoleITMER</h6>
           </div>
@@ -113,7 +113,7 @@
           <div class="u-repeater u-repeater-1">
             <div class="u-container-align-left u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-container-layout-1">
-                <img alt="" class="u-expanded-width u-image u-image-default u-image-1" data-image-width="1366" data-image-height="911" src="images/msum-planetarium.jpg">
+                <img alt="" class="u-expanded-width u-image u-image-default u-image-1" data-image-width="1366" data-image-height="911" src="assets/msum-planetarium.jpg">
                 <h3 class="u-align-left u-text u-text-default u-text-1">Planétarium </h3>
                 <p class="u-align-left u-custom-font u-heading-font u-text u-text-2">Venez visiter notre planétarium pour un voyage immersif à travers les étoiles et les planètes. </p>
               </div>
@@ -127,14 +127,14 @@
             </div>
             <div class="u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-container-layout-3">
-                <img alt="" class="u-expanded-width u-image u-image-default u-image-3" data-image-width="1585" data-image-height="792" src="images/exposition.jpg">
+                <img alt="" class="u-expanded-width u-image u-image-default u-image-3" data-image-width="1585" data-image-height="792" src="assets/exposition.jpg">
                 <h3 class="u-align-left u-text u-text-default u-text-5">Expositions en journée​ et nocturnes</h3>
                 <p class="u-align-left u-custom-font u-heading-font u-text u-text-6"> Venez découvrir nos expositions passionnantes, disponibles en journée et en nocturne, pour une exploration complète de l'univers fascinant de l'astronomie à PoleIt.</p>
               </div>
             </div>
             <div class="u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-container-layout-4">
-                <img alt="" class="u-expanded-width u-image u-image-default u-image-4" data-image-width="800" data-image-height="533" src="images/ativi.webp">
+                <img alt="" class="u-expanded-width u-image u-image-default u-image-4" data-image-width="800" data-image-height="533" src="assets/ativi.webp">
                 <h3 class="u-align-left u-text u-text-default u-text-7"> Activités quotidiennes pour petits et grands</h3>
                 <p class="u-align-left u-custom-font u-heading-font u-text u-text-8"> Explorez le cosmos avec des observations astronomiques, des ateliers ludiques et des conférences captivantes, adaptés à tous les âges, à PoleIt.</p>
               </div>
