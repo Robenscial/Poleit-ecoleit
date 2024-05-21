@@ -30,3 +30,6 @@ services:
     depends_on:
       - database
 
+  redis:
+    image: redis:alpine3.19
+    hostname: ${REDIS_HOST}

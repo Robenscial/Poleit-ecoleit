@@ -20,9 +20,9 @@ if(isset($_POST['submit'])){
             if($checkUserExist->rowCount() == 0){
 
                 if($gender == "F"){
-                    $path = "picture/pp2.png";
+                    $path = "assets/pp2.png";
                 }else{
-                    $path = "picture/pp1.png";
+                    $path = "assets/pp1.png";
                 }
 
                 $insertUser = $bdd->prepare('INSERT INTO users(NAME, EMAIL, PASSWORD, ROLE, PROFILE) VALUES (?, ?, ?, ?, ?)');

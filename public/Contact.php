@@ -63,7 +63,7 @@
                 <div class="u-layout-col">
                   <div class="u-container-style u-layout-cell u-left-cell u-size-30 u-layout-cell-1">
                     <div class="u-container-layout u-valign-middle u-container-layout-1">
-                      <h2 class="u-text u-text-1">localisation</h2>
+                      <h2 class="u-text u-text-1">Localisation</h2>
                       <p class="u-text u-text-2">251 Rue Joseph-Louis Lagrange, 59300 Famars </p>
                     </div>
                   </div>
@@ -78,10 +78,10 @@
                     <div class="u-container-layout u-valign-bottom u-container-layout-3">
                       <h2 class="u-text u-text-3">CONTACTEZ-N0US</h2>
                       <div class="custom-expanded u-form u-form-1">
-                        <form action="./test.php" method="POST" class="u-block-315d-21 u-clearfix u-form-spacing-25 u-form-vertical u-inner-form">
+                        <form action="" method="POST" class="u-block-315d-21 u-clearfix u-form-spacing-25 u-form-vertical u-inner-form">
                           <div class="u-form-group u-form-name">
                             <label for="name-e4cc" class="u-form-control-hidden u-label">Name</label>
-                            <input type="text" placeholder="NOM" id="name-e4cc" name="name" class="u-border-no-bottom u-border-no-left u-border-no-right u-border-no-top u-grey-5 u-input u-input-rectangle" required="">
+                            <input type="text" placeholder="Nom" id="name-e4cc" name="name" class="u-border-no-bottom u-border-no-left u-border-no-right u-border-no-top u-grey-5 u-input u-input-rectangle" required="">
                           </div>
                           <div class="u-form-email u-form-group">
                             <label for="email-e4cc" class="u-form-control-hidden u-label">Email</label>
