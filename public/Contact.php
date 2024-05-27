@@ -1,4 +1,5 @@
-<?php session_start();?>
+<?php session_start();
+require "../action/contact.php"?>
 
 <!DOCTYPE html>
 <html style="font-size: 16px;" lang="fr"><head>
@@ -39,12 +40,12 @@
           </div>
           <div class="u-custom-menu u-nav-container">
             <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-4-dark-1 u-text-hover-palette-4-dark-1" href="<?php if(isset($_SESSION['auth'])){?>Accueil.php<?php }else{?>index.php <?php }?>" style="padding: 10px 20px;">Accueil</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-4-dark-1 u-text-hover-palette-4-dark-1" href="Contact.html" style="padding: 10px 20px;">Contact</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-4-dark-1 u-text-hover-palette-4-dark-1" href="Contact.php" style="padding: 10px 20px;">Contact</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-4-dark-1 u-text-hover-palette-4-dark-1" href="activite.php" style="padding: 10px 20px;">Activites</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-4-dark-1 u-text-hover-palette-4-dark-1" href="actualite.php" style="padding: 10px 20px;">Actualite</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-4-dark-1 u-text-hover-palette-4-dark-1" href="./blog/blog.php" style="padding: 10px 20px;">Blog</a>
                 </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-4-dark-1 u-text-hover-palette-4-dark-1" href="<?php if(isset($_SESSION['auth'])){echo 'disconnect.php';}else{?>inscription.php<?php }?>" style="padding: 10px 20px;"><?php if(isset($_SESSION['auth'])){echo "Deconnexion";}else{echo "Inscription";}?></a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-4-dark-1 u-text-hover-palette-4-dark-1" href="<?php if(isset($_SESSION['auth'])){echo 'profil-'.$_SESSION['role'].'.php';}else{?>login.php <?php }?>" style="padding: 10px 20px;"><?php if(isset($_SESSION['auth'])){echo $_SESSION['name'].' ==>';}else{echo "Connexion";} ;?></a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-4-dark-1 u-text-hover-palette-4-dark-1" href="<?php if(isset($_SESSION['auth'])){echo 'profil-'.$_SESSION['role'].'.php';}else{?>connexion.php <?php }?>" style="padding: 10px 20px;"><?php if(isset($_SESSION['auth'])){echo $_SESSION['name'];}else{echo "Connexion";} ;?></a>
 </li></ul>
           </div>
         </nav>
@@ -78,7 +79,7 @@
                     <div class="u-container-layout u-valign-bottom u-container-layout-3">
                       <h2 class="u-text u-text-3">CONTACTEZ-N0US</h2>
                       <div class="custom-expanded u-form u-form-1">
-                        <form action="" method="POST" class="u-block-315d-21 u-clearfix u-form-spacing-25 u-form-vertical u-inner-form">
+                        <form method="POST" class="u-block-315d-21 u-clearfix u-form-spacing-25 u-form-vertical u-inner-form">
                           <div class="u-form-group u-form-name">
                             <label for="name-e4cc" class="u-form-control-hidden u-label">Name</label>
                             <input type="text" placeholder="Nom" id="name-e4cc" name="name" class="u-border-no-bottom u-border-no-left u-border-no-right u-border-no-top u-grey-5 u-input u-input-rectangle" required="">
@@ -93,11 +94,8 @@
                           </div>
                           <div class="u-form-group u-form-submit">
                             <a href="#" class="u-border-2 u-border-radius-0 u-border-white u-btn u-btn-rectangle u-btn-submit u-button-style u-btn-1">envoyer </a>
-                            <input type="submit" value="submit" class="u-form-control-hidden u-grey-5">
+                            <input type="submit" name="submit" value="submit" class="u-form-control-hidden u-grey-5">
                           </div>
-
-                          <input type="hidden" value="" name="recaptchaResponse">
-                          <input type="hidden" name="formServices" value="b9f65a1a-1c5a-d126-6951-6c1daf7eca5b">
                         </form>
                       </div>
                     </div>

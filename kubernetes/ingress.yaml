@@ -10,18 +10,31 @@ spec:
     - host: www.poleit.lan
       http:
         paths:
-          - path: "/pma"
-            pathType: Prefix
-            backend:
-              service:
-                name: pma
-                port:
-                  number: 80
           - path: "/"
             pathType: Prefix
             backend:
               service:
                 name: website
+                port:
+                  number: 80
+    - host: www.minio.poleit.lan
+      http:
+        paths:
+          - path: "/"
+            pathType: Prefix
+            backend:
+              service:
+                name: minio
+                port:
+                  number: 80
+    - host: www.pma.poleit.lan
+      http:
+        paths:
+          - path: "/"
+            pathType: Prefix
+            backend:
+              service:
+                name: pma
                 port:
                   number: 80
 
