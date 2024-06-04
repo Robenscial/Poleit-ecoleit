@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: longhorn
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: longhorn
+  template:
+    metadata:
+      labels:
+        app: longhorn
+    spec:
+      containers:
+        - name: longhorn
+          image: longhornio/longhorn-manager:v1.6.x-head
+          volumeMounts:
+            - mountPath: /dev
+              name: longhorn
+      volumes:
+        - name: longhorn
+          persistentVolumeClaim:
+            claimName: longhorn
