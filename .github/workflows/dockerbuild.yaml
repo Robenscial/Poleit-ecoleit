@@ -16,4 +16,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/poleit:v1.1.2
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/poleit:v1.1.1
