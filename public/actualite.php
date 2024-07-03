@@ -116,7 +116,7 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
 
     <section class="u-align-center u-clearfix u-gradient u-section-2" id="carousel_a8d2">
       <div class="u-clearfix u-sheet u-sheet-1">
-        <h2 class="u-text u-text-body-alt-color u-text-1"> Derniers apparition&nbsp;</h2><!--blog--><!--blog_options_json--><!--{"type":"Recent","source":"","tags":"","count":""}--><!--/blog_options_json-->
+        <h2 class="u-text u-text-body-alt-color u-text-1"> Dernieres apparition&nbsp;</h2><!--blog--><!--blog_options_json--><!--{"type":"Recent","source":"","tags":"","count":""}--><!--/blog_options_json-->
         <div class="u-blog u-expanded-width u-blog-1">
           <div class="u-list-control"></div>
           <div class="u-repeater u-repeater-1"><!--blog_post-->

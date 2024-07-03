@@ -111,12 +111,10 @@ require "../action/contact.php"?>
       <div class="u-clearfix u-sheet u-sheet-1"></div>
     </section>
     
-    
-    
     <footer class="u-align-center u-black u-clearfix u-footer u-footer" id="sec-4c29"><div class="u-clearfix u-sheet u-sheet-1">
         <p class="u-align-center u-custom-font u-heading-font u-text u-text-default u-text-1">
           <span style="font-weight: 700;" class="u-text-palette-4-dark-2">© 2024 par Pol<span style="font-weight: 700;"></span>eITmer
-          </span>.
+          </span>
         </p>
       </div></footer>
 

@@ -83,7 +83,7 @@
     <section class="u-align-center u-clearfix u-grey-5 u-section-2" id="carousel_46ef">
       <div class="u-align-center-lg u-align-center-md u-align-center-sm u-align-center-xl u-container-style u-expanded-width u-grey-80 u-group u-group-1">
         <div class="u-container-layout u-valign-top u-container-layout-1">
-          <h1 class="u-align-center-xs u-custom-font u-font-playfair-display u-text u-text-1">Derniers posts </h1>
+          <h1 class="u-align-center-xs u-custom-font u-font-playfair-display u-text u-text-1">Dernieres posts </h1>
         </div>
       </div><!--blog--><!--blog_options_json--><!--{"type":"Recent","source":"","tags":"","count":""}--><!--/blog_options_json-->
       <div class="u-blog u-blog-1">

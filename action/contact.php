@@ -33,8 +33,8 @@ if (isset($_POST['submit'])) {
         $mail->AltBody = "Vous avez ete contacte par $nom, son email: $email et voici son message $message";
 
         $mail->send();
-        $message = 'Le message a ete envoye avec success';
+        $errorMSG = 'Le message a ete envoye avec success';
     } catch (Exception $e) {
-        $message = "Le message ne peut pas etre envoye. Mailer Error: {$mail->ErrorInfo}";
+        $errorMSG = "Le message ne peut pas etre envoye. Mailer Error: {$mail->ErrorInfo}";
     }
 }

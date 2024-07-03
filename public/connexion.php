@@ -42,7 +42,7 @@
                 </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-4-dark-1 u-text-hover-palette-4-dark-1" href="activite.php" style="padding: 10px 20px;">Activites</a>
                 </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-4-dark-1 u-text-hover-palette-4-dark-1" href="actualite.php" style="padding: 10px 20px;">Actualite</a>
                 </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-4-dark-1 u-text-hover-palette-4-dark-1" href="./blog/blog.php" style="padding: 10px 20px;">Blog</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-4-dark-1 u-text-hover-palette-4-dark-1" href="inscription.php" style="padding: 10px 20px;">Inscription</a>
+                </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-4-dark-1 u-text-hover-palette-4-dark-1" href="inscription.php" style="padding: 10px 20px;">Inscription</a>
                 </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-4-dark-1 u-text-hover-palette-4-dark-1" href="connexion.php" style="padding: 10px 20px;">Connexion</a>
 </li></ul>
           </div>
@@ -58,10 +58,10 @@
         <div class="u-border-2 u-border-palette-4-dark-2 u-container-style u-group u-radius u-shape-round u-group-1">
           <div class="u-container-layout u-container-layout-1">
             <h2 class="u-align-center u-text u-text-default u-text-palette-4-dark-2 u-text-1">CONNECTEZ-VOUS!!! </h2>
-              <p><?php if(isset($errorMSG)) echo $errorMSG;?></p>
             <div class="u-form u-form-1">
               <form action="" method="POST" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" style="padding: 10px;">
                 <div class="u-form-email u-form-group">
+                    <p><?php if(!empty($errorMSG)) echo $errorMSG;?></p>
                   <label for="email-58d3" class="u-custom-font u-heading-font u-label u-text-palette-4-light-2 u-label-1">Nom</label>
                   <input type="text" placeholder="Name" id="email-58d3" name="name" class="u-input u-input-rectangle" required="">
                 </div>
@@ -80,12 +80,10 @@
       </div>
     </section>
     
-    
-    
     <footer class="u-align-center u-black u-clearfix u-footer u-footer" id="sec-4c29"><div class="u-clearfix u-sheet u-sheet-1">
         <p class="u-align-center u-custom-font u-heading-font u-text u-text-default u-text-1">
           <span style="font-weight: 700;" class="u-text-palette-4-dark-2">© 2024 par Pol<span style="font-weight: 700;"></span>eITmer
-          </span>.
+          </span>
         </p>
       </div></footer>
 </body></html>

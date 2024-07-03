@@ -30,12 +30,11 @@ if(isset($_POST['submit'])){
                 header('location: ../connexion.php');
 
             }else{
-                $errorMSG = "l'utilisateur existe deja";
-                header('location: ../inscription.php');
+                $errorMSG = "l'Utilisateur existe deja";
             }
 
     }else{
-        $errorMSG = "veillez remplir tous les champs";
+        $errorMSG = "Veillez remplir tous les champs";
     }
 
 }else{
@@ -75,19 +74,16 @@ if(isset($_POST['send'])) {
                 }
 
             } else {
-                $errorMSG = "nom d'utilisateur ou mot de passe incorrect";
-                header('location: ../connexion.php');
+                $errorMSG = "Nom d'utilisateur ou mot de passe incorrect";
             }
 
         } else {
 
-            $errorMSG = "nom d'utilisateur ou mot de passe incorrect";
-            header('location: ../connexion.php');
+            $errorMSG = "Nom d'utilisateur ou mot de passe incorrect";
         }
 
     } else {
-        $errorMSG = "veillez remplir tous les champs";
-
+        $errorMSG = "Veillez remplir tous les champs";
     }
 }
 }

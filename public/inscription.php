@@ -56,10 +56,10 @@
         <div class="u-border-2 u-border-palette-4-dark-2 u-container-style u-group u-radius u-shape-round u-group-1">
           <div class="u-container-layout u-container-layout-1">
             <h2 class="u-align-center u-text u-text-default u-text-palette-4-dark-2 u-text-1">INSCRIVEZ-VOUS </h2>
-              <p><?php if(isset($errorMSG)) echo $errorMSG;?></p>
             <div class="u-form u-form-1">
               <form action="" method="POST" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" style="padding: 10px;">
                 <div class="u-form-group u-form-input-layout-horizontal u-form-radiobutton u-form-group-1">
+                    <p><?php if(!empty($errorMSG)) echo $errorMSG;?></p>
                   <label class="u-custom-font u-heading-font u-label u-text-palette-4-light-2 u-label-1">Genre</label>
                   <div class="u-form-radio-button-wrapper">
                     <div class="u-input-row">
@@ -102,7 +102,7 @@
     <footer class="u-align-center u-black u-clearfix u-footer u-footer" id="sec-4c29"><div class="u-clearfix u-sheet u-sheet-1">
         <p class="u-align-center u-custom-font u-heading-font u-text u-text-default u-text-1">
           <span style="font-weight: 700;" class="u-text-palette-4-dark-2">© 2024 par Pol<span style="font-weight: 700;"></span>eITmer
-          </span>.
+          </span>
         </p>
       </div></footer>
   

@@ -36,7 +36,7 @@
             <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-4-dark-1 u-text-hover-palette-4-dark-1" href="<?php if(isset($_SESSION['auth'])){?>../Accueil.php<?php }else{?>../index.php <?php }?>" style="padding: 10px 20px;">Accueil</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-4-dark-1 u-text-hover-palette-4-dark-1" href="../Contact.php" style="padding: 10px 20px;">Contact</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-4-dark-1 u-text-hover-palette-4-dark-1" href="blog.php" style="padding: 10px 20px;">Blog</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-4-dark-1 u-text-hover-palette-4-dark-1" href="../<?php echo 'profil-'.$_SESSION['role'].'.php';?>" style="padding: 10px 20px;"><?php echo $_SESSION['name'];?> ==></a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-4-dark-1 u-text-hover-palette-4-dark-1" href="../<?php echo 'profil-'.$_SESSION['role'].'.php';?>" style="padding: 10px 20px;"><?php echo $_SESSION['name'];?></a>
 </li></ul>
           </div>
 
